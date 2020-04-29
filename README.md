@@ -1,1 +1,1 @@
-# handposerc
+# handpose
