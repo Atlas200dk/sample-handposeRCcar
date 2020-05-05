@@ -182,7 +182,7 @@ You can use either of the following methods:
     **Figure  13**  Hand pose stopped<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig2182182518112"></a>  
     
 
-    ![](sample-handposeRC-I2C/figures/runstopped.png)
+    ![](sample-handposeRC-I2C/figures/runstopped.PNG)
 
 -   Stopping the Presenter Server service
 
