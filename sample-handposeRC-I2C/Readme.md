@@ -13,13 +13,13 @@ This method uses two Arduinos.
 ## Hardware configuration <a name="en-us_topic_0228461904_section137245294533"></a>
 
 
-**Step 1**  Connecting HC-05 to Arduino
+**Step 1**  Connecting HC-05 to Arduino (Both Arduinos)
 
 ![](figures/Arduino_bt.png)
 <br/><br/>
 
 
-**Step 2**  Connect Atlas200DK to Arduino through I2C
+**Step 2**  Connect Atlas200DK to transmitter Arduino through I2C
 
 (Atlas200DK - Arduino)
 
