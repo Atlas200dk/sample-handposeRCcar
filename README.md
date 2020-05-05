@@ -99,7 +99,7 @@ You can use either of the following methods:
     **Figure  5**  Starting Presenter Server<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig423515251067"></a>  
     
 
-    ![](figures/presenterserver.png)
+    ![](sample-handposeRC-I2C/figures/presenterserver.png)
 
     When the message  **Please choose one to show the presenter in browser\(default: 127.0.0.1\):**  is displayed, type the IP address \(usually IP address for accessing Mind Studio\) used for accessing the Presenter Server service in the browser.
 
