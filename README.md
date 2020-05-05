@@ -6,29 +6,54 @@ You can deploy this application on the Atlas 200 DK to collect camera data in re
 
 The applications in the current version branch adapt to  [DDK&RunTime](https://ascend.huawei.com/resources) **1.32.0.0 and later**.
 
+
+## Parts list<a name="en-us_topic_0228461904_section137245294533"></a>
+
+To deploy project with RC car:
+
+-   Atlas200DK with camera
+-   2 HC-05 Bluetooth modules
+-   Elegoo Smart Robot Car Kit 
+-   Arduino UNO (optional based on deployment method)
+-   General project components of choice: breadboards, soldering kit, resistors, jumper wires, etc
+
+Note that the ELegoo Smart Robot Car Kit comes with components including an Arduino UNO and a Bluetooth module. The Bluetooth module can vary, so it may be simpler to get 2 HC-05 modules and use those.
+
+
+
 ## Prerequisites<a name="en-us_topic_0228461904_section137245294533"></a>
 
 Before deploying this sample, ensure that:
 
 -   Mind Studio  has been installed.
 -   The Atlas 200 DK developer board has been connected to  Mind Studio, the cross compiler has been installed, the SD card has been prepared, and basic information has been configured.
--   The HC-05 Bluetooth modules have been configured to connect when turned on, with a baudrate of 38400.
 
-## Deployment<a name="en-us_topic_0228461904_section412811285117"></a>
 
-You can use either of the following methods:
+## Initial preparations<a name="en-us_topic_0228461904_section137245294533"></a>
 
-1.  Quick deployment: visit  [https://github.com/Atlas200dk/faster-deploy](https://github.com/Atlas200dk/faster-deploy).
+Before deploying the project:
+-   Assemble the Elegoo Robot Car.
+-   Configure the HC-05 Bluetooth modules in AT mode as master and slave. Use a baudrate of 38400 for both. The modules should automatically connect when powered on.
+
+## Hardware deployment<a name="en-us_topic_0228461904_section412811285117"></a>
+
+Two hardware configurations are available:
+
+1.  Send data from Atlas200DK through I2C: visit  [https://github.com/Atlas200dk/faster-deploy](https://github.com/Atlas200dk/faster-deploy).
 
     >![](public_sys-resources/icon-note.gif) **NOTE:**   
-    >-   The quick deployment script can be used to deploy multiple samples rapidly. Select the hand pose deployment sample.  
-    >-   The quick deployment script automatically completes code download, model conversion, and environment variable configuration. To learn about the detailed deployment process, go to  [2. Common deployment](#en-us_topic_0228461904_li3208251440).  
+    >-   The RC car control command is sent to an Arduino through I2C, which transmits it to the RC car Arduino through Bluetooth.  
+    >-   This method demonstrates I2C communication between Atlas and Arduino boards.
 
-2.  <a name="en-us_topic_0228461904_li3208251440"></a>Common deployment: visit  [https://github.com/Atlas200dk/sample-README/tree/master/sample-facedetection](https://github.com/Atlas200dk/sample-README/tree/master/sample-facedetection).
+2.  <a name="en-us_topic_0228461904_li3208251440"></a>Send data from Atlas200DK through UART: visit  [https://github.com/Atlas200dk/sample-README/tree/master/sample-facedetection](https://github.com/Atlas200dk/sample-README/tree/master/sample-facedetection).
 
     >![](public_sys-resources/icon-note.gif) **NOTE:**   
-    >-   In this deployment mode, you need to manually download code, convert models, and configure environment variables.  
+    >-   The RC car control command is sent through UART directly to transmitter Bluetooth module. 
+    >-   This method does not need the optional Arduino UNO.
+    
+Download all files for the chosen method and follow the wiring configuration in the Readme. Also upload the code to the Arduino(s).
 
+## Deploying the Atlas200DK application<a name="en-us_topic_0228461904_section7994174585917"></a>
 
 ## Building a Project<a name="en-us_topic_0228461904_section7994174585917"></a>
 
