@@ -21,7 +21,7 @@ To deploy project with RC car:
 
 Note that the Elegoo Smart Robot Car Kit comes with components including an Arduino UNO and a Bluetooth module. The Bluetooth module can vary, so it may be simpler to get 2 HC-05 modules and use those. <br />
 
-### Assembly parts 
+### Assemble parts 
 Before deploying the project:
 -   [Assemble the Elegoo Robot Car](https://dronebotworkshop.com/building-the-elegoo-smart-robot-car-part-1/) (manual also available in the kit)
 -   [Connect the Raspberry Pi camera to Atlas200DK](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0204328003.html)
@@ -71,8 +71,8 @@ This application contains the following engines:
 -  **Postprocess**
 
 **Camera engine** takes frames from the Raspberry Pi camera and sends them to the inference engine. <br /><br />
-**Inference engine** resizes the frames using DVPP and then performs inference using the .om model. It then sends the inference results to post process engine.<br /><br />
-**Postprocess engine** computes the keypoint coordinates from the inference output. It then computes an RC command (forward, backward, left, right, stop) from the keypoint coordinates. Finally it sends the results to presenter server and I2C/UART.
+**Inference engine** resizes the frames using [DVPP](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0204324961.html) and then performs inference using the [Offline Model](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0204328934.html). It then sends the inference results to post process engine.<br /><br />
+**Postprocess engine** computes the keypoint coordinates from the inference output. It then computes an RC command (forward, backward, left, right, stop) from the keypoint coordinates. Finally it sends the results to presenter server and [I2C](https://github.com/Atlas200dk/hardware_expansion/tree/master/sample-i2c)/[UART](https://github.com/Atlas200dk/hardware_expansion/tree/master/sample-uart).
 
 
 ## Building a Project<a name="en-us_topic_0228461904_section7994174585917"></a>
