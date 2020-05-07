@@ -19,8 +19,8 @@ To deploy project with RC car:
 -   [Arduino UNO](https://www.amazon.ca/Elegoo-Board-ATmega328P-ATMEGA16U2-Arduino/dp/B01EWOE0UU/ref=sr_1_3?keywords=Arduino+Uno&qid=1588817396&sr=8-3) (optional based on deployment method) 
 -   General project components of choice: breadboards, soldering kit, resistors, jumper wires, etc
 
-Note that the Elegoo Smart Robot Car Kit comes with components including an Arduino UNO and a Bluetooth module. The Bluetooth module can vary, so it may be simpler to get 2 HC-05 modules and use those.
-<br />
+Note that the Elegoo Smart Robot Car Kit comes with components including an Arduino UNO and a Bluetooth module. The Bluetooth module can vary, so it may be simpler to get 2 HC-05 modules and use those.<br /><br />
+
 **Assembly parts** <br />
 Before deploying the project:
 -   Assemble the Elegoo Robot Car (follow the manual in the kit)
@@ -53,7 +53,9 @@ Upload the code to the Arduinos based on the chosen hardware configuration.
 **Atlas200DK** 
 -  [Setup MindStudio and development environment](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html)(using ADKInstaller)
 -  [Setup SD card]((https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html) (using ADKInstaller)
+
 <br />
+
 **HC-05 Bluetooth modules** <br />
 Configure the HC-05 Bluetooth modules in AT mode as master and slave. Use a baudrate of 38400 for both. The modules should automatically connect when powered on. ([tutorial](https://howtomechatronics.com/tutorials/arduino/how-to-configure-pair-two-hc-05-bluetooth-module-master-slave-commands/))
 <br />
