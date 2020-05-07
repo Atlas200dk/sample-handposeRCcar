@@ -19,14 +19,12 @@ To deploy project with RC car:
 -   [Arduino UNO](https://www.amazon.ca/Elegoo-Board-ATmega328P-ATMEGA16U2-Arduino/dp/B01EWOE0UU/ref=sr_1_3?keywords=Arduino+Uno&qid=1588817396&sr=8-3) (optional based on deployment method) 
 -   General project components of choice: breadboards, soldering kit, resistors, jumper wires, etc
 
-Note that the Elegoo Smart Robot Car Kit comes with components including an Arduino UNO and a Bluetooth module. The Bluetooth module can vary, so it may be simpler to get 2 HC-05 modules and use those.<br /><br />
+Note that the Elegoo Smart Robot Car Kit comes with components including an Arduino UNO and a Bluetooth module. The Bluetooth module can vary, so it may be simpler to get 2 HC-05 modules and use those.
 
 ### Assembly parts 
 Before deploying the project:
 -   [Assemble the Elegoo Robot Car](https://dronebotworkshop.com/building-the-elegoo-smart-robot-car-part-1/) (manual also available in the kit)
 -   [Connect the Raspberry Pi camera to Atlas200DK](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0204328003.html)
-<br />
-
 
 ### Two hardware configurations are available:
 
@@ -73,8 +71,8 @@ This application contains the following engines:
 -  Inference
 -  Postprocess
 
-Camera engine takes frames from the Raspberry Pi camera and sends them to the inference engine. <br />
-Inference engine resizes the frames using DVPP and then performs inference using the .om model. It then sends the inference results to post process engine.<br />
+Camera engine takes frames from the Raspberry Pi camera and sends them to the inference engine. <br /><br />
+Inference engine resizes the frames using DVPP and then performs inference using the .om model. It then sends the inference results to post process engine.<br /><br />
 Postprocess engine computes the keypoint coordinates from the inference output. It then computes an RC command (forward, backward, left, right, stop) from the keypoint coordinates. Finally it sends the results to presenter server and I2C/UART.
 
 
