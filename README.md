@@ -23,7 +23,7 @@ Note that the Elegoo Smart Robot Car Kit comes with components including an Ardu
 
 **Assembly parts** <br />
 Before deploying the project:
--   Assemble the Elegoo Robot Car (follow the manual in the kit)
+-   [Assemble the Elegoo Robot Car](https://dronebotworkshop.com/building-the-elegoo-smart-robot-car-part-1/) (manual also available in the kit)
 -   [Connect the Raspberry Pi camera to Atlas200DK](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0204328003.html)
 <br />
 
@@ -59,6 +59,18 @@ Upload the code to the Arduinos based on the chosen hardware configuration.
 **HC-05 Bluetooth modules** <br />
 Configure the HC-05 Bluetooth modules in AT mode as master and slave. Use a baudrate of 38400 for both. The modules should automatically connect when powered on. ([tutorial](https://howtomechatronics.com/tutorials/arduino/how-to-configure-pair-two-hc-05-bluetooth-module-master-slave-commands/))
 <br />
+
+## Atlas200DK application overview (C++)<a name="en-us_topic_0228461904_section7994174585917"></a>
+The Handpose application can be deployed on the Atlas200DK with or without the RC car. <b />
+The program consists of 4 engines. In the **src** directory, each engine has a folder with a **.cpp** and **.h** file.<b />
+The engines are connected in the **graph.config** file.
+This application contains the following engines:
+-  Camera 
+-  Inference
+-  Postprocess
+
+
+
 
 
 ## Building a Project<a name="en-us_topic_0228461904_section7994174585917"></a>
