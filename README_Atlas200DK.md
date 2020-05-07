@@ -17,10 +17,9 @@ The applications in the current version branch adapt to  [DDK&RunTime](https://a
 
 ### Code layout
 The Handpose application can be deployed on the Atlas200DK with or without the RC car. 
-The program consists of 4 engines. In the **src** directory, each engine has a folder with a **.cpp** and **.h** file.
+The program consists of 3 engines. In the **src** directory, each engine has a folder with a **.cpp** and **.h** file.
 The engines are connected in the **graph.config** file.
 
-#### Engines
 This application contains the following engines:
 -  **Camera**
 -  **Inference**
