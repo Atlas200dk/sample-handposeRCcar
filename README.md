@@ -24,6 +24,10 @@ The first step is to set up the Atlas200DK board and run the application. Follow
 The second step is to set up the peripherial devices. Follow the guide: <br />
 [url]
 
+<br /><br />
+Note:
+There is two different configurations for the peripherial devices (I2C, UART). The different is explained in the step 2 guide. 
+
 
 
 
