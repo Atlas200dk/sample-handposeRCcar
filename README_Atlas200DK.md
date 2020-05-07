@@ -12,7 +12,7 @@ The applications in the current version branch adapt to  [DDK&RunTime](https://a
 ### Setup
 -  Setup MindStudio and development environment [using ADKInstaller](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html)
 -  Setup SD card [using ADKInstaller](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html) 
--  Connect Raspberry Pi camera to board
+-  [Connect Raspberry Pi camera to board](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0204328003.html)
 
 
 ### Code layout
