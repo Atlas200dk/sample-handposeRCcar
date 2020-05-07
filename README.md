@@ -66,13 +66,13 @@ The engines are connected in the **graph.config** file.
 
 ### Engines
 This application contains the following engines:
--  Camera
--  Inference
--  Postprocess
+-  **Camera**
+-  **Inference**
+-  **Postprocess**
 
-Camera engine takes frames from the Raspberry Pi camera and sends them to the inference engine. <br /><br />
-Inference engine resizes the frames using DVPP and then performs inference using the .om model. It then sends the inference results to post process engine.<br /><br />
-Postprocess engine computes the keypoint coordinates from the inference output. It then computes an RC command (forward, backward, left, right, stop) from the keypoint coordinates. Finally it sends the results to presenter server and I2C/UART.
+**Camera engine** takes frames from the Raspberry Pi camera and sends them to the inference engine. <br /><br />
+**Inference engine** resizes the frames using DVPP and then performs inference using the .om model. It then sends the inference results to post process engine.<br /><br />
+**Postprocess engine** computes the keypoint coordinates from the inference output. It then computes an RC command (forward, backward, left, right, stop) from the keypoint coordinates. Finally it sends the results to presenter server and I2C/UART.
 
 
 ## Building a Project<a name="en-us_topic_0228461904_section7994174585917"></a>
