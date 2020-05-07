@@ -48,13 +48,13 @@ Download all files for the chosen method and follow the wiring configuration in 
 
 **Arduino** <br />
 Upload the code to the Arduinos based on the chosen hardware configuration.
-<br />
 
-**Atlas200DK** 
--  [Setup MindStudio and development environment](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html)(using ADKInstaller)
--  [Setup SD card]((https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html) (using ADKInstaller)
 
-<br />
+**Atlas200DK**
+-  Setup MindStudio and development environment [using ADKInstaller](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html)
+-  Setup SD card [using ADKInstaller](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html) 
+
+
 
 **HC-05 Bluetooth modules** <br />
 Configure the HC-05 Bluetooth modules in AT mode as master and slave. Use a baudrate of 38400 for both. The modules should automatically connect when powered on. ([tutorial](https://howtomechatronics.com/tutorials/arduino/how-to-configure-pair-two-hc-05-bluetooth-module-master-slave-commands/))
@@ -74,7 +74,7 @@ Configure the HC-05 Bluetooth modules in AT mode as master and slave. Use a baud
     **Figure  1**  Opening the handpose project<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig05481157171918"></a>  
     
 
-    ![](sample-handposeRC-I2C/figures/openandselect.png)
+    ![](sample-handposeRC-I2C/figures/openandselect.png
 
 2.  Configure project information in the  **src/param\_configure.conf**  file.
 
