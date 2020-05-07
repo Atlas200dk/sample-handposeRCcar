@@ -20,15 +20,15 @@ To deploy project with RC car:
 -   General project components of choice: breadboards, soldering kit, resistors, jumper wires, etc
 
 Note that the Elegoo Smart Robot Car Kit comes with components including an Arduino UNO and a Bluetooth module. The Bluetooth module can vary, so it may be simpler to get 2 HC-05 modules and use those.
-
+<br />
 **Assembly parts** <br />
 Before deploying the project:
 -   Assemble the Elegoo Robot Car (follow the manual in the kit)
 -   [Connect the Raspberry Pi camera to Atlas200DK](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0204328003.html)
+<br />
 
 
-
-Two hardware configurations are available:
+**Two hardware configurations are available:**
 
 1.  Send data from Atlas200DK through I2C: visit  [https://github.com/Atlas200dk-test/handposeRCcar/tree/master/sample-handposeRC-I2C](https://github.com/Atlas200dk-test/handposeRCcar/tree/master/sample-handposeRC-I2C).
 
@@ -42,25 +42,22 @@ Two hardware configurations are available:
     >-   The RC car control command is sent through UART directly to transmitter Bluetooth module. 
     >-   This method does not need the optional Arduino UNO.
     
-Download all files for the chosen method and follow the wiring configuration in the Readme. Also upload the code to the Arduino(s).
+Download all files for the chosen method and follow the wiring configuration in the Readme. 
 
 ## Software preparations<a name="EN-US_TOPIC_0232642690"></a>
-**Atlas200DK** <br />
+
+**Arduino** <br />
+Upload the code to the Arduinos based on the chosen hardware configuration.
+<br />
+
+**Atlas200DK** 
 -  [Setup MindStudio and development environment](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html)(using ADKInstaller)
 -  [Setup SD card]((https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html) (using ADKInstaller)
-
+<br />
 **HC-05 Bluetooth modules** <br />
-Configure the HC-05 Bluetooth modules in AT mode as master and slave. Use a baudrate of 38400 for both. The modules should automatically connect when powered on. ([tutorial](https://howtomechatronics.com/tutorials/arduino/how-to-configure-pair-two-hc-05-bluetooth-module-master-slave-commands/)
+Configure the HC-05 Bluetooth modules in AT mode as master and slave. Use a baudrate of 38400 for both. The modules should automatically connect when powered on. ([tutorial](https://howtomechatronics.com/tutorials/arduino/how-to-configure-pair-two-hc-05-bluetooth-module-master-slave-commands/))
+<br />
 
-
-
-## Prerequisites<a name="en-us_topic_0228461904_section137245294533"></a>
-
-Before deploying this sample, ensure that:
-
--   Mind Studio  has been installed.
--   The Atlas 200 DK developer board has been connected to  Mind Studio, the cross compiler has been installed, the SD card has been prepared, and basic information has been configured.
--   Configure the HC-05 Bluetooth modules in AT mode as master and slave. Use a baudrate of 38400 for both. The modules should automatically connect when powered on.
 
 ## Building a Project<a name="en-us_topic_0228461904_section7994174585917"></a>
 
