@@ -9,7 +9,7 @@ The applications in the current version branch adapt to  [DDK&RunTime](https://a
 
 ## Hardware preperation<a name="EN-US_TOPIC_0232642690"></a><a name="en-us_topic_0228461904_section412811285117"></a>
 
-**Parts list** <br />
+### Parts list 
 To deploy project with RC car:
 
 -   Atlas200DK 
@@ -21,14 +21,14 @@ To deploy project with RC car:
 
 Note that the Elegoo Smart Robot Car Kit comes with components including an Arduino UNO and a Bluetooth module. The Bluetooth module can vary, so it may be simpler to get 2 HC-05 modules and use those.<br /><br />
 
-**Assembly parts** <br />
+### Assembly parts 
 Before deploying the project:
 -   [Assemble the Elegoo Robot Car](https://dronebotworkshop.com/building-the-elegoo-smart-robot-car-part-1/) (manual also available in the kit)
 -   [Connect the Raspberry Pi camera to Atlas200DK](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0204328003.html)
 <br />
 
 
-**Two hardware configurations are available:**
+### Two hardware configurations are available:
 
 1.  Send data from Atlas200DK through I2C: visit  [https://github.com/Atlas200dk-test/handposeRCcar/tree/master/sample-handposeRC-I2C](https://github.com/Atlas200dk-test/handposeRCcar/tree/master/sample-handposeRC-I2C).
 
@@ -46,31 +46,36 @@ Download all files for the chosen method and follow the wiring configuration in 
 
 ## Software preparations<a name="EN-US_TOPIC_0232642690"></a>
 
-**Arduino** <br />
+### Arduino
 Upload the code to the Arduinos based on the chosen hardware configuration.
 
 
-**Atlas200DK**
+### Atlas200DK
 -  Setup MindStudio and development environment [using ADKInstaller](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html)
 -  Setup SD card [using ADKInstaller](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html) 
 
 
 
-**HC-05 Bluetooth modules** <br />
+### HC-05 Bluetooth modules
 Configure the HC-05 Bluetooth modules in AT mode as master and slave. Use a baudrate of 38400 for both. The modules should automatically connect when powered on. ([tutorial](https://howtomechatronics.com/tutorials/arduino/how-to-configure-pair-two-hc-05-bluetooth-module-master-slave-commands/))
 <br />
 
 ## Atlas200DK application overview (C++)<a name="en-us_topic_0228461904_section7994174585917"></a>
-The Handpose application can be deployed on the Atlas200DK with or without the RC car. <b />
-The program consists of 4 engines. In the **src** directory, each engine has a folder with a **.cpp** and **.h** file.<b />
+
+### Code layout
+The Handpose application can be deployed on the Atlas200DK with or without the RC car. 
+The program consists of 4 engines. In the **src** directory, each engine has a folder with a **.cpp** and **.h** file.
 The engines are connected in the **graph.config** file.
+
+### Engines
 This application contains the following engines:
--  Camera 
+-  Camera
 -  Inference
 -  Postprocess
 
-
-
+Camera engine takes frames from the Raspberry Pi camera and sends them to the inference engine. <br />
+Inference engine resizes the frames using DVPP and then performs inference using the .om model. It then sends the inference results to post process engine.<br />
+Postprocess engine computes the keypoint coordinates from the inference output. It then computes an RC command (forward, backward, left, right, stop) from the keypoint coordinates. Finally it sends the results to presenter server and I2C/UART.
 
 
 ## Building a Project<a name="en-us_topic_0228461904_section7994174585917"></a>
