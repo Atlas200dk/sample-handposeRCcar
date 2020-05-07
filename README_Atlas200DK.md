@@ -21,9 +21,9 @@ The program consists of 3 engines. In the **src** directory, each engine has a f
 The engines are connected in the **graph.config** file.
 
 This application contains the following engines:
--  **Camera**
--  **Inference**
--  **Postprocess**
+-  Camera
+-  Inference
+-  Postprocess
 
 <br />**Camera engine** takes frames from the Raspberry Pi camera and sends them to the inference engine. <br /><br />
 **Inference engine** resizes the frames using [DVPP](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0204324961.html) and then performs inference using the [Offline Model](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0204328934.html). It then sends the inference results to post process engine.<br /><br />
