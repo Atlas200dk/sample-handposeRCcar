@@ -7,7 +7,7 @@ You can deploy this application on the Atlas 200 DK to collect camera data in re
 The applications in the current version branch adapt to  [DDK&RunTime](https://ascend.huawei.com/resources) **1.32.0.0 and later**.
 
 
-## Hardware preperation<a name="EN-US_TOPIC_0232642690"></a><a name="en-us_topic_0228461904_section412811285117"></a>
+## Hardware preparation<a name="EN-US_TOPIC_0232642690"></a><a name="en-us_topic_0228461904_section412811285117"></a>
 
 ### Parts list 
 To deploy project with RC car:
@@ -19,7 +19,7 @@ To deploy project with RC car:
 -   [Arduino UNO](https://www.amazon.ca/Elegoo-Board-ATmega328P-ATMEGA16U2-Arduino/dp/B01EWOE0UU/ref=sr_1_3?keywords=Arduino+Uno&qid=1588817396&sr=8-3) (optional based on deployment method) 
 -   General project components of choice: breadboards, soldering kit, resistors, jumper wires, etc
 
-Note that the Elegoo Smart Robot Car Kit comes with components including an Arduino UNO and a Bluetooth module. The Bluetooth module can vary, so it may be simpler to get 2 HC-05 modules and use those.
+Note that the Elegoo Smart Robot Car Kit comes with components including an Arduino UNO and a Bluetooth module. The Bluetooth module can vary, so it may be simpler to get 2 HC-05 modules and use those. <br />
 
 ### Assembly parts 
 Before deploying the project:
@@ -51,7 +51,6 @@ Upload the code to the Arduinos based on the chosen hardware configuration.
 ### Atlas200DK
 -  Setup MindStudio and development environment [using ADKInstaller](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html)
 -  Setup SD card [using ADKInstaller](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html) 
-
 
 
 ### HC-05 Bluetooth modules
