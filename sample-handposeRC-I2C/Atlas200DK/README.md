@@ -43,7 +43,7 @@ This application contains the following engines:
     **Figure  1**  Opening the handpose project<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig05481157171918"></a>  
     
 
-    ![](sample-handposeRC-I2C/figures/openandselect.png
+    ![](figures/openandselect.png
 
 2.  Configure project information in the  **src/param\_configure.conf**  file.
 
@@ -52,7 +52,7 @@ This application contains the following engines:
     **Figure  2**  Configuration file<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig0391184062214"></a>  
     
 
-    ![](sample-handposeRC-I2C/figures/conf.png)
+    ![](figures/conf.png)
 
     The default configurations of the configuration file are as follows:
 
@@ -74,7 +74,7 @@ This application contains the following engines:
 3.  Run the  **deploy.sh**  script to adjust configuration parameters and download and compile the third-party library. Open the  **Terminal**  window of Mind Studio. By default, the home directory of the code is used. Run the  **deploy.sh**  script in the background to deploy the environment, as shown in  [Executing the deploy script](#en-us_topic_0228461904_en-us_topic_0203223294_fig107831626101910).
 
     **Figure  3**  Running the deploy.sh script<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig107831626101910"></a>  
-    ![](sample-handposeRC-I2C/figures/deploy.png "running-the-deploy-sh-script")
+    ![](figures/deploy.png "running-the-deploy-sh-script")
 
     >![](public_sys-resources/icon-note.gif) **NOTE:**   
     >-   During the first deployment, if no third-party library is used, the system automatically downloads and builds the third-party library, which may take a long time. The third-party library can be directly used for the subsequent build.  
@@ -85,7 +85,7 @@ This application contains the following engines:
     **Figure  4**  Build and files generated<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig1625447397"></a>  
     
 
-    ![](sample-handposeRC-I2C/figures/build.png)
+    ![](figures/build.png)
 
     >![](public_sys-resources/icon-notice.gif) **NOTICE:**   
     >When you build a project for the first time,  **Build \> Build**  is unavailable. You need to choose  **Build \> Edit Build Configuration**  to set parameters before the build.  
@@ -99,7 +99,7 @@ This application contains the following engines:
     **Figure  5**  Starting Presenter Server<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig423515251067"></a>  
     
 
-    ![](sample-handposeRC-I2C/figures/presenterserver.png)
+    ![](figures/presenterserver.png)
 
     When the message  **Please choose one to show the presenter in browser\(default: 127.0.0.1\):**  is displayed, type the IP address \(usually IP address for accessing Mind Studio\) used for accessing the Presenter Server service in the browser.
 
@@ -108,24 +108,24 @@ This application contains the following engines:
     **Figure  6**  Project deployment<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig999812514814"></a>  
     
 
-    ![](sample-handposeRC-I2C/figures/presdeploy.png)
+    ![](figures/presdeploy.png)
 
     [Figure 7](#en-us_topic_0228461904_en-us_topic_0203223294_fig69531305324)  shows that the Presenter Server service has been started successfully.
 
     **Figure  7**  Starting the Presenter Server process<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig69531305324"></a>  
     
 
-    ![](sample-handposeRC-I2C/figures/prestart.png)
+    ![](figures/prestart.png)
 
     Use the URL shown in the preceding figure to log in to Presenter Server. The IP address is that typed in  [Figure 6](#en-us_topic_0228461904_en-us_topic_0203223294_fig999812514814)  and the default port number is  **7007**. The following figure indicates that Presenter Server has been started successfully.
 
     **Figure  8**  Home page<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig64391558352"></a>  
-    ![](sample-handposeRC-I2C/figures/home-page.png "home-page")
+    ![](figures/home-page.png "home-page")
 
     The following figure shows the IP address used by Presenter Server and  Mind Studio  to communicate with the Atlas 200 DK.
 
     **Figure  9**  IP address example<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig1881532172010"></a>  
-    ![](sample-handposeRC-I2C/figures/ip-address-example.png "ip-address-example")
+    ![](figures/ip-address-example.png "ip-address-example")
 
     In the preceding figure:
 
@@ -143,14 +143,14 @@ This application contains the following engines:
     **Figure  10**  Application running sample<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig93931954162719"></a>  
     
 
-    ![](sample-handposeRC-I2C/figures/startrun.png)
+    ![](figures/startrun.png)
 
 2.  Use the URL displayed upon the start of the Presenter Server service to log in to Presenter Server.
 
     Wait for Presenter Agent to transmit data to the server. Click  **Refresh**. When there is data, the icon in the  **Status**  column for the corresponding channel changes to green, as shown in the following figure.
 
     **Figure  11**  Presenter Server page<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig113691556202312"></a>  
-    ![](sample-handposeRC-I2C/figures/home-page2.png "presenter-server-page")
+    ![](figures/home-page2.png "presenter-server-page")
 
     >![](public_sys-resources/icon-note.gif) **NOTE:**   
     >-   For the hand pose application, Presenter Server supports a maximum of 10 channels at the same time \(each  _presenter\_view\_app\_name_  parameter corresponds to a channel\).  
@@ -175,14 +175,14 @@ This application contains the following engines:
     **Figure  12**  Stopping hand pose<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig14326454172518"></a>  
     
 
-    ![](sample-handposeRC-I2C/figures/runstop.png)
+    ![](figures/runstop.png)
 
     [Figure 13](#en-us_topic_0228461904_en-us_topic_0203223294_fig2182182518112)  shows that the hand pose application has been stopped.
 
     **Figure  13**  Hand pose stopped<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig2182182518112"></a>  
     
 
-    ![](sample-handposeRC-I2C/figures/runstopped.PNG)
+    ![](figures/runstopped.PNG)
 
 -   Stopping the Presenter Server service
 
