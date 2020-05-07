@@ -45,8 +45,7 @@ Download all files for the chosen method and follow the wiring configuration in 
 ## Software preparations<a name="EN-US_TOPIC_0232642690"></a>
 
 ### Arduino
-Upload the code to the Arduinos based on the chosen hardware configuration.
-
+After downloading the files for the choosen hardware configuration, upload the codes from the Arduino directory to the corresponding Arduino(s). 
 
 ### Atlas200DK
 -  Setup MindStudio and development environment [using ADKInstaller](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0238626392.html)
