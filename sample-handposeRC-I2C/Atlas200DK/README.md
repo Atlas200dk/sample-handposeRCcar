@@ -21,9 +21,7 @@ The program consists of 3 engines. In the **src** directory, each engine has a f
 The engines are connected in the **graph.config** file.
 
 This application contains the following engines:
--  Camera
--  Inference
--  Postprocess
+<br />
 
 ![](figures/engines.PNG)
 
