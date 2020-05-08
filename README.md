@@ -14,11 +14,11 @@ This project consists of two parts:
 
 ### Deployment steps
 Step 1: Set up the Atlas200DK board and run the application. Follow the guide: <br />
-[https://github.com/Atlas200dk-test/handposeRCcar/blob/master/sample-handposeRC-I2C/Atlas200DK/README.md](https://github.com/Atlas200dk-test/handposeRCcar/blob/master/sample-handposeRC-I2C/Atlas200DK/README.md)
+[https://github.com/Atlas200dk/sample-handposeRCcar/tree/master/sample-handposeRC-I2C/Atlas200DK](https://github.com/Atlas200dk/sample-handposeRCcar/tree/master/sample-handposeRC-I2C/Atlas200DK)
 <br /><br />
 
 Step 2: Set up the peripherial devices for RC car. Follow the guide: <br />
-[https://github.com/Atlas200dk-test/handposeRCcar/blob/master/README_RC_car.md](https://github.com/Atlas200dk-test/handposeRCcar/blob/master/README_RC_car.md)
+[https://github.com/Atlas200dk/sample-handposeRCcar/blob/master/README_RC_car.md](https://github.com/Atlas200dk/sample-handposeRCcar/blob/master/README_RC_car.md)
 
 
 ### Note:
