@@ -12,7 +12,7 @@ This project consists of two parts:
 -   Peripherial devices (Arduino, RC car, etc)
 
 
-<br />**The Atlas200DK application can be deployed on its own.** The program will run even if the peripherial devices are not connected. In this case, hand keypoints and the control command are displayed in real time as shown in the demo video.<br /><br />
+<br />**The Atlas200DK application can be deployed on its own.** The program will run even if the peripherial devices are not connected. In this case, hand keypoints and the control command are displayed in real time as shown in the demo video.<br />
 
 
 ### Deployment steps
