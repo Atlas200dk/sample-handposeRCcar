@@ -8,14 +8,14 @@ This guide explains how to add the peripherial devices to the Atlas200DK, so tha
 
 Two variations are available: I2C and UART
 
-1.  Send data from Atlas200DK through I2C <br >
+1.  Send data from Atlas200DK through I2C <br ><br >
 ![](sample-handposeRC-I2C/figures/I2C.PNG)
 
     >![](public_sys-resources/icon-note.gif) **NOTE:**   
     >-   The RC car control command is sent to an Arduino through I2C, which transmits it to the RC car Arduino through Bluetooth.  
     >-   This method demonstrates I2C communication between Atlas and Arduino boards.
 
-2.  <a name="en-us_topic_0228461904_li3208251440"></a>Send data from Atlas200DK through UART.<br >
+2.  <a name="en-us_topic_0228461904_li3208251440"></a>Send data from Atlas200DK through UART.<br ><br >
 ![](sample-handposeRC-I2C/figures/I2C.PNG)
 
     >![](public_sys-resources/icon-note.gif) **NOTE:**   
