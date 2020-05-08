@@ -86,7 +86,13 @@ Atlas200DK - HC05
 
 ### Arduino
 
-After downloading the files for the choosen hardware configuration, upload the codes from the Arduino directory to the corresponding Arduino(s). 
+I2C Variation:
+-   Upload RC_car.ino to RC car Arduino
+-   Upload I2C_to_Bluetooth.ino to Transmitter Arduino
+
+UART Variation:
+-   Upload RC_car.ino to RC car Arduino
+
 
 
 ### HC-05 Bluetooth modules
