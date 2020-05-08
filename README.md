@@ -45,7 +45,7 @@ Note that the Elegoo Smart Robot Car Kit comes with components including an Ardu
 
 ### I2C variation 
 
-**Connect one HC-05 module to Transmitter Arduino and one HC-05 to RC car Arduino
+**Connect one HC-05 module to Transmitter Arduino and one HC-05 to RC car Arduino**
 
 ![](sample-handposeRC-I2C/figures/Arduino_bt.png)
 <br/><br/>
