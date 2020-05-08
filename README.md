@@ -45,13 +45,13 @@ Note that the Elegoo Smart Robot Car Kit comes with components including an Ardu
 
 ### I2C variation 
 
-Connect HC-05 modules to both RC car and Transmitter Arduinos:
+**Connect one HC-05 module to Transmitter Arduino and one HC-05 to RC car Arduino
 
 ![](sample-handposeRC-I2C/figures/Arduino_bt.png)
 <br/><br/>
 
 
-Connect Transmitter Arduino to Atlas200DK:
+**Connect Transmitter Arduino to Atlas200DK**
 
 (Atlas200DK - Arduino)
 
@@ -64,12 +64,12 @@ Connect Transmitter Arduino to Atlas200DK:
 ### UART variation
 
 
-Connect one HC-05 modules to RC car Arduino:
+**Connect one HC-05 modules to RC car Arduino**
 
 ![](sample-handposeRC-I2C/figures/Arduino_bt.png)
 <br/><br/>
 
-Connect one HC-05 module to Atlas200DK
+**Connect one HC-05 module to Atlas200DK**
 
 (Atlas200DK - HC-05) 
 
