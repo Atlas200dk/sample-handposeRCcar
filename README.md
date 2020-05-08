@@ -1,4 +1,4 @@
-# Hand Pose RC car<a name="EN-US_TOPIC_0232642690"></a>
+# Hand-Pose controlled RC car<a name="EN-US_TOPIC_0232642690"></a>
 
 This project showcases the Atlas200DK board used for controlling an RC car with hand gestures.<br />
 [Demo video](https://www.youtube.com/watch?v=2f5Sg3r27cE)
