@@ -61,7 +61,7 @@ Atlas200DK - Arduino
 -   P5(SCL) - A5
 -   GND - GND
 
-<br/><br/>
+<br/>
 
 ### UART variation
 
