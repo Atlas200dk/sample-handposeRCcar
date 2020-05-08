@@ -13,6 +13,8 @@ This guide explains how to add the peripherial devices to the Atlas200DK, so tha
     >![](public_sys-resources/icon-note.gif) **NOTE:**   
     >-   The RC car control command is sent to an Arduino through I2C, which transmits it to the RC car Arduino through Bluetooth.  
     >-   This method demonstrates I2C communication between Atlas and Arduino boards.
+    
+    <br />
 
 2.  <a name="en-us_topic_0228461904_li3208251440"></a>Send data from Atlas200DK through UART.<br ><br >
 ![](sample-handposeRC-I2C/figures/I2C.PNG)
@@ -36,7 +38,6 @@ This guide explains how to add the peripherial devices to the Atlas200DK, so tha
 Note that the Elegoo Smart Robot Car Kit comes with components including an Arduino UNO and a Bluetooth module. The Bluetooth module can vary, so it may be simpler to get 2 HC-05 modules and use those. <br />
 
 ## Assemble the parts 
-Before deploying the project:
 -   [Assemble the Elegoo Robot Car](https://dronebotworkshop.com/building-the-elegoo-smart-robot-car-part-1/) (manual also available in the kit)
 -   [Connect the Raspberry Pi camera to Atlas200DK](https://www.huaweicloud.com/intl/en-us/ascend/doc/Atlas200DK/1.32.0.0(beta)/en/en-us_topic_0204328003.html)
 
@@ -46,7 +47,7 @@ Before deploying the project:
 
 Connect HC-05 modules to both RC car and Transmitter Arduinos:
 
-![](figures/Arduino_bt.png)
+![](sample-handposeRC-I2C/figures/Arduino_bt.png)
 <br/><br/>
 
 
@@ -65,7 +66,7 @@ Connect Transmitter Arduino to Atlas200DK:
 
 Connect one HC-05 modules to RC car Arduino:
 
-![](figures/Arduino_bt.png)
+![](sample-handposeRC-I2C/figures/Arduino_bt.png)
 <br/><br/>
 
 Connect one HC-05 module to Atlas200DK
