@@ -12,9 +12,6 @@ This project consists of two parts:
 -   Peripherial devices (Arduino, RC car, etc)
 
 
-<br />**The Atlas200DK application can be deployed on its own.** The program will run even if the peripherial devices are not connected. In this case, hand keypoints and the control command are displayed in real time as shown in the demo video.<br />
-
-
 ### Deployment steps
 The first step is to set up the Atlas200DK board and run the application. Follow the guide: <br />
 [https://github.com/Atlas200dk-test/handposeRCcar/blob/master/sample-handposeRC-I2C/Atlas200DK/README.md](https://github.com/Atlas200dk-test/handposeRCcar/blob/master/sample-handposeRC-I2C/Atlas200DK/README.md)
@@ -23,8 +20,10 @@ The first step is to set up the Atlas200DK board and run the application. Follow
 The second step is to set up the peripherial devices. Follow the guide: <br />
 [https://github.com/Atlas200dk-test/handposeRCcar/blob/master/README_RC_car.md](https://github.com/Atlas200dk-test/handposeRCcar/blob/master/README_RC_car.md)
 
-<br /><br />
->Note: There is two different configurations for the peripherial devices (I2C, UART). The different is explained in the step 2 guide.
+
+### Note:
+-   **The Atlas200DK application (step 1) can be deployed on its own.** The program will run even if the peripherial devices are not connected. In this case, hand keypoints and the control command are displayed in real time as shown in the demo video.
+-   There are two variations to deploy this project, I2C and UART. The difference is explained in step 2 guide. Use the project codes for the chosen variation: [I2C](https://github.com/Atlas200dk-test/handposeRCcar/tree/master/sample-handposeRC-I2C) / [UART](https://github.com/Atlas200dk-test/handposeRCcar/tree/master/sample-handposeRC-UART)
 
 
 
