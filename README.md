@@ -23,7 +23,7 @@ Step 2: Set up the peripherial devices for RC car. Follow the guide: <br />
 
 ### Note:
 -   **The Atlas200DK application (step 1) can be deployed on its own.** The program will run even if the peripherial devices are not connected. In this case, hand keypoints and the control command are displayed in real time as shown in the demo video.
--   There are two variations to deploy this project, I2C and UART. The difference is explained in step 2 guide. For step 1,
+-   There are two variations to deploy this project, I2C and UART. The difference is explained in step 2 guide. 
 Use the project codes for the chosen variation: [I2C](https://github.com/Atlas200dk-test/handposeRCcar/tree/master/sample-handposeRC-I2C) / [UART](https://github.com/Atlas200dk-test/handposeRCcar/tree/master/sample-handposeRC-UART)
 
 
