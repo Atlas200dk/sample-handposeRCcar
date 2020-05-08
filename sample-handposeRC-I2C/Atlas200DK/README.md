@@ -43,7 +43,7 @@ This application contains the following engines:
     **Figure  1**  Opening the handpose project<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig05481157171918"></a>  
     
 
-    ![](figures/openandselect.png
+    ![](../figures/openandselect.png
 
 2.  Configure project information in the  **src/param\_configure.conf**  file.
 
@@ -52,7 +52,7 @@ This application contains the following engines:
     **Figure  2**  Configuration file<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig0391184062214"></a>  
     
 
-    ![](figures/conf.png)
+    ![](../figures/conf.png)
 
     The default configurations of the configuration file are as follows:
 
@@ -66,7 +66,7 @@ This application contains the following engines:
     -   _data\_source_: camera channel. The value can be  **Channel-1**  or  **Channel-2**. For details, see "Viewing the Channel to Which a Camera Belongs" in  [Atlas 200 DK User Guide](https://ascend.huawei.com/documentation).
     -   _presenter\_view\_app\_name_: value of  **View Name**  on the  **Presenter Server**  page, which must be unique. The value consists of at least one character and supports only uppercase letters, lowercase letters, digits, and underscores \(\_\).
 
-    >![](public_sys-resources/icon-note.gif) **NOTE:**   
+    >![](../public_sys-resources/icon-note.gif) **NOTE:**   
     >-   All the three parameters must be set. Otherwise, the build fails.  
     >-   Do not use double quotation marks \(""\) during parameter settings.  
     >-   Modify the default configurations as required.  
@@ -74,9 +74,9 @@ This application contains the following engines:
 3.  Run the  **deploy.sh**  script to adjust configuration parameters and download and compile the third-party library. Open the  **Terminal**  window of Mind Studio. By default, the home directory of the code is used. Run the  **deploy.sh**  script in the background to deploy the environment, as shown in  [Executing the deploy script](#en-us_topic_0228461904_en-us_topic_0203223294_fig107831626101910).
 
     **Figure  3**  Running the deploy.sh script<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig107831626101910"></a>  
-    ![](figures/deploy.png "running-the-deploy-sh-script")
+    ![](../figures/deploy.png "running-the-deploy-sh-script")
 
-    >![](public_sys-resources/icon-note.gif) **NOTE:**   
+    >![](../public_sys-resources/icon-note.gif) **NOTE:**   
     >-   During the first deployment, if no third-party library is used, the system automatically downloads and builds the third-party library, which may take a long time. The third-party library can be directly used for the subsequent build.  
     >-   During deployment, select the IP address of the host that communicates with the developer board. Generally, the IP address is that configured for the virtual NIC. If the IP address is in the same network segment as the IP address of the developer board, it is automatically selected for deployment. If they are not in the same network segment, you need to manually type the IP address of the host that communicates with the developer board to complete the deployment.  
 
@@ -85,9 +85,9 @@ This application contains the following engines:
     **Figure  4**  Build and files generated<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig1625447397"></a>  
     
 
-    ![](figures/build.png)
+    ![](../figures/build.png)
 
-    >![](public_sys-resources/icon-notice.gif) **NOTICE:**   
+    >![](../public_sys-resources/icon-notice.gif) **NOTICE:**   
     >When you build a project for the first time,  **Build \> Build**  is unavailable. You need to choose  **Build \> Edit Build Configuration**  to set parameters before the build.  
 
 5.  Start Presenter Server.
@@ -99,7 +99,7 @@ This application contains the following engines:
     **Figure  5**  Starting Presenter Server<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig423515251067"></a>  
     
 
-    ![](figures/presenterserver.png)
+    ![](../figures/presenterserver.png)
 
     When the message  **Please choose one to show the presenter in browser\(default: 127.0.0.1\):**  is displayed, type the IP address \(usually IP address for accessing Mind Studio\) used for accessing the Presenter Server service in the browser.
 
@@ -108,24 +108,24 @@ This application contains the following engines:
     **Figure  6**  Project deployment<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig999812514814"></a>  
     
 
-    ![](figures/presdeploy.png)
+    ![](../figures/presdeploy.png)
 
     [Figure 7](#en-us_topic_0228461904_en-us_topic_0203223294_fig69531305324)  shows that the Presenter Server service has been started successfully.
 
     **Figure  7**  Starting the Presenter Server process<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig69531305324"></a>  
     
 
-    ![](figures/prestart.png)
+    ![](../figures/prestart.png)
 
     Use the URL shown in the preceding figure to log in to Presenter Server. The IP address is that typed in  [Figure 6](#en-us_topic_0228461904_en-us_topic_0203223294_fig999812514814)  and the default port number is  **7007**. The following figure indicates that Presenter Server has been started successfully.
 
     **Figure  8**  Home page<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig64391558352"></a>  
-    ![](figures/home-page.png "home-page")
+    ![](../figures/home-page.png "home-page")
 
     The following figure shows the IP address used by Presenter Server and  Mind Studio  to communicate with the Atlas 200 DK.
 
     **Figure  9**  IP address example<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig1881532172010"></a>  
-    ![](figures/ip-address-example.png "ip-address-example")
+    ![](../figures/ip-address-example.png "ip-address-example")
 
     In the preceding figure:
 
@@ -143,22 +143,22 @@ This application contains the following engines:
     **Figure  10**  Application running sample<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig93931954162719"></a>  
     
 
-    ![](figures/startrun.png)
+    ![](../figures/startrun.png)
 
 2.  Use the URL displayed upon the start of the Presenter Server service to log in to Presenter Server.
 
     Wait for Presenter Agent to transmit data to the server. Click  **Refresh**. When there is data, the icon in the  **Status**  column for the corresponding channel changes to green, as shown in the following figure.
 
     **Figure  11**  Presenter Server page<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig113691556202312"></a>  
-    ![](figures/home-page2.png "presenter-server-page")
+    ![](../figures/home-page2.png "presenter-server-page")
 
-    >![](public_sys-resources/icon-note.gif) **NOTE:**   
+    >![](../public_sys-resources/icon-note.gif) **NOTE:**   
     >-   For the hand pose application, Presenter Server supports a maximum of 10 channels at the same time \(each  _presenter\_view\_app\_name_  parameter corresponds to a channel\).  
     >-   Due to hardware limitations, each channel supports a maximum frame rate of 20 fps. A lower frame rate is automatically used when the network bandwidth is low.  
 
 3.  Run the  **deploy.sh**  script to adjust configuration parameters and download and compile the third-party library. Open the  **Terminal**  tab page of Mind Studio. By default, the home directory of the code is used. Run the  **deploy.sh**  script in the background to deploy the environment, as shown in the figure.
 
-    >![](public_sys-resources/icon-note.gif) **NOTE:**   
+    >![](../public_sys-resources/icon-note.gif) **NOTE:**   
     >-   During the first deployment, if no third-party library is used, the system automatically downloads and compiles the third-party library, which may take a long time. The third-party library can be directly used for the subsequent compilation.  
     >-   During deployment, select the IP address of the host that communicates with the developer board. Generally, the IP address is the IP address configured for the virtual NIC. If the IP address is in the same network segment as the IP address of the developer board, it is automatically selected for deployment. If they are not in the same network segment, you need to manually type the IP address of the host that communicates with the Atlas DK to complete the deployment.  
 
@@ -175,14 +175,14 @@ This application contains the following engines:
     **Figure  12**  Stopping hand pose<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig14326454172518"></a>  
     
 
-    ![](figures/runstop.png)
+    ![](../figures/runstop.png)
 
     [Figure 13](#en-us_topic_0228461904_en-us_topic_0203223294_fig2182182518112)  shows that the hand pose application has been stopped.
 
     **Figure  13**  Hand pose stopped<a name="en-us_topic_0228461904_en-us_topic_0203223294_fig2182182518112"></a>  
     
 
-    ![](figures/runstopped.PNG)
+    ![](../figures/runstopped.PNG)
 
 -   Stopping the Presenter Server service
 
