@@ -3,7 +3,8 @@
 This project showcases the Atlas200DK board used for controlling an RC car with hand gestures.<br />
 Demo video: [demo]
 
-
+### Hand gestures
+![](sample-handposeRC-I2C/figures/gestures.png)
 ## Project overview
 
 This project consists of two parts:
