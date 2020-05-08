@@ -17,7 +17,7 @@ This guide explains how to add the peripherial devices to the Atlas200DK, so tha
     <br />
 
 2.  <a name="en-us_topic_0228461904_li3208251440"></a>Send data from Atlas200DK through UART.<br ><br >
-![](sample-handposeRC-I2C/figures/I2C.PNG)
+![](sample-handposeRC-I2C/figures/UART.PNG)
 
     >![](public_sys-resources/icon-note.gif) **NOTE:**   
     >-   The RC car control command is sent through UART directly to transmitter Bluetooth module. 
