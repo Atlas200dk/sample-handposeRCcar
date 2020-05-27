@@ -162,8 +162,34 @@ This application contains the following engines:
     >-   During the first deployment, if no third-party library is used, the system automatically downloads and compiles the third-party library, which may take a long time. The third-party library can be directly used for the subsequent compilation.  
     >-   During deployment, select the IP address of the host that communicates with the developer board. Generally, the IP address is the IP address configured for the virtual NIC. If the IP address is in the same network segment as the IP address of the developer board, it is automatically selected for deployment. If they are not in the same network segment, you need to manually type the IP address of the host that communicates with the Atlas DK to complete the deployment.  
 
-4.  Click the link \(such as  **video**  in the preceding figure\) in the  **View Name**  column to view the result. The confidence of the detected human hand is marked.
+4.  Click the link \(such as  **video**  in the preceding figure\) in the  **View Name**  column to view the result. The hand keypoints and the command are shown.
 
+
+
+5.  Run the application as root to enable I2C/UART usage.
+
+    After running the project from MindStudio, the applicaion excecutable is copied to the Atlas200DK. 
+    
+    Log in to the host side as the  **HwHiAiUser**  user in SSH mode on Ubuntu Server where  Mind Studio  is located.
+
+    **ssh HwHiAiUser@192.168.1.2**
+
+    Switch to the  **root**  user. The default password of the  **root**  user on the Atlas DK developer board is  **Mind@123**.
+
+    **su root**
+    
+    Change directory to where the excecutable is located. "..." denotes some combination of letters and numbers that can vary.
+    
+    **cd ~/HIAI_PROJECTS/workspace_mind_studio/sample-handposeRC-I2C_.../out/**
+    
+    Run the application
+    
+    **./workspace_mind_studio_sample-handposeRC-I2C**
+    
+    The application should run the same way as the MindStudio method above, but now the I2C/UART functions will also work. To **stop** the application from the command line, press **CTRL + c**.
+    
+    
+    
 ## Follow-up Operations<a name="en-us_topic_0228461904_section177619345260"></a>
 
 -   Stopping the hand pose application
