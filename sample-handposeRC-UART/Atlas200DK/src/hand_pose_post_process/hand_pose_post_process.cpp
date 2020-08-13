@@ -312,16 +312,24 @@ HIAI_StatusT HandPosePostProcess::HandleResults(
       one_result.lt = point_lt;
       one_result.rb = point_rb;
 
-
-     // send command character through UART
-     char* send_buf = &command_char;
-     int len = ctrl_uart.uart_send(send_buf, 1);
-     if (len < 0)
-     {
-         printf("UART write data error");
-     }
-
-
+            
+    // send command character through UART  
+    char send_cmd;
+    switch(rc_command){
+        case 0: send_cmd = 's'; break;
+        case 1: send_cmd = 'f'; break;
+        case 2: send_cmd = 'b'; break;
+        case 3: send_cmd = 'r'; break;
+        case 4: send_cmd = 'l'; break;
+    }
+    char* send_buf = &send_cmd;
+    int len = ctrl_uart.uart_send(send_buf, 1);
+    if (len < 0)
+    {
+        printf("UART write data error");
+    }
+      
+      
     // push back
     detection_results.emplace_back(one_result);
 
