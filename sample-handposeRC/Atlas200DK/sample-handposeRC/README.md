@@ -121,7 +121,7 @@ You can deploy this application on the Atlas 200 DK to collect camera data in re
 
 
 
-4.  Run the application on Atlas 200 DK as root to enable I2C/UART usage.
+4.  Run the application on Atlas 200 DK as **root** user to enable I2C/UART usage.
 
     After running the project from MindStudio, the applicaion excecutable is automatically copied to the Atlas200DK. 
     
