@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/ascend/AscendProjects/sample-handposeRC/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/home/ascend/AscendProjects/sample-handposeRC/src/../inc -I/home/ascend/ascend_ddk/arm/include/opencv4 -I/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/include -I/home/ascend/ascend_ddk/arm/include -I/home/ascend/ascend_ddk/arm/include/ascenddk -I/home/ascend/Ascend -I/home/ascend/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/utils.cpp.o -c /home/ascend/AscendProjects/sample-handposeRC/src/utils.cpp",
+  "file": "/home/ascend/AscendProjects/sample-handposeRC/src/utils.cpp"
+},
+{
+  "directory": "/home/ascend/AscendProjects/sample-handposeRC/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/home/ascend/AscendProjects/sample-handposeRC/src/../inc -I/home/ascend/ascend_ddk/arm/include/opencv4 -I/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/include -I/home/ascend/ascend_ddk/arm/include -I/home/ascend/ascend_ddk/arm/include/ascenddk -I/home/ascend/Ascend -I/home/ascend/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/camera.cpp.o -c /home/ascend/AscendProjects/sample-handposeRC/src/camera.cpp",
+  "file": "/home/ascend/AscendProjects/sample-handposeRC/src/camera.cpp"
+},
+{
+  "directory": "/home/ascend/AscendProjects/sample-handposeRC/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/home/ascend/AscendProjects/sample-handposeRC/src/../inc -I/home/ascend/ascend_ddk/arm/include/opencv4 -I/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/include -I/home/ascend/ascend_ddk/arm/include -I/home/ascend/ascend_ddk/arm/include/ascenddk -I/home/ascend/Ascend -I/home/ascend/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/model_process.cpp.o -c /home/ascend/AscendProjects/sample-handposeRC/src/model_process.cpp",
+  "file": "/home/ascend/AscendProjects/sample-handposeRC/src/model_process.cpp"
+},
+{
+  "directory": "/home/ascend/AscendProjects/sample-handposeRC/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/home/ascend/AscendProjects/sample-handposeRC/src/../inc -I/home/ascend/ascend_ddk/arm/include/opencv4 -I/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/include -I/home/ascend/ascend_ddk/arm/include -I/home/ascend/ascend_ddk/arm/include/ascenddk -I/home/ascend/Ascend -I/home/ascend/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/hand_pose.cpp.o -c /home/ascend/AscendProjects/sample-handposeRC/src/hand_pose.cpp",
+  "file": "/home/ascend/AscendProjects/sample-handposeRC/src/hand_pose.cpp"
+},
+{
+  "directory": "/home/ascend/AscendProjects/sample-handposeRC/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/home/ascend/AscendProjects/sample-handposeRC/src/../inc -I/home/ascend/ascend_ddk/arm/include/opencv4 -I/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/include -I/home/ascend/ascend_ddk/arm/include -I/home/ascend/ascend_ddk/arm/include/ascenddk -I/home/ascend/Ascend -I/home/ascend/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/dvpp_process.cpp.o -c /home/ascend/AscendProjects/sample-handposeRC/src/dvpp_process.cpp",
+  "file": "/home/ascend/AscendProjects/sample-handposeRC/src/dvpp_process.cpp"
+},
+{
+  "directory": "/home/ascend/AscendProjects/sample-handposeRC/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/home/ascend/AscendProjects/sample-handposeRC/src/../inc -I/home/ascend/ascend_ddk/arm/include/opencv4 -I/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/include -I/home/ascend/ascend_ddk/arm/include -I/home/ascend/ascend_ddk/arm/include/ascenddk -I/home/ascend/Ascend -I/home/ascend/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/dvpp_resize.cpp.o -c /home/ascend/AscendProjects/sample-handposeRC/src/dvpp_resize.cpp",
+  "file": "/home/ascend/AscendProjects/sample-handposeRC/src/dvpp_resize.cpp"
+},
+{
+  "directory": "/home/ascend/AscendProjects/sample-handposeRC/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/home/ascend/AscendProjects/sample-handposeRC/src/../inc -I/home/ascend/ascend_ddk/arm/include/opencv4 -I/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/include -I/home/ascend/ascend_ddk/arm/include -I/home/ascend/ascend_ddk/arm/include/ascenddk -I/home/ascend/Ascend -I/home/ascend/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/dvpp_jpege.cpp.o -c /home/ascend/AscendProjects/sample-handposeRC/src/dvpp_jpege.cpp",
+  "file": "/home/ascend/AscendProjects/sample-handposeRC/src/dvpp_jpege.cpp"
+},
+{
+  "directory": "/home/ascend/AscendProjects/sample-handposeRC/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/home/ascend/AscendProjects/sample-handposeRC/src/../inc -I/home/ascend/ascend_ddk/arm/include/opencv4 -I/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/include -I/home/ascend/ascend_ddk/arm/include -I/home/ascend/ascend_ddk/arm/include/ascenddk -I/home/ascend/Ascend -I/home/ascend/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/handpose_decode.cpp.o -c /home/ascend/AscendProjects/sample-handposeRC/src/handpose_decode.cpp",
+  "file": "/home/ascend/AscendProjects/sample-handposeRC/src/handpose_decode.cpp"
+},
+{
+  "directory": "/home/ascend/AscendProjects/sample-handposeRC/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/home/ascend/AscendProjects/sample-handposeRC/src/../inc -I/home/ascend/ascend_ddk/arm/include/opencv4 -I/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/include -I/home/ascend/ascend_ddk/arm/include -I/home/ascend/ascend_ddk/arm/include/ascenddk -I/home/ascend/Ascend -I/home/ascend/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/i2c.cpp.o -c /home/ascend/AscendProjects/sample-handposeRC/src/i2c.cpp",
+  "file": "/home/ascend/AscendProjects/sample-handposeRC/src/i2c.cpp"
+},
+{
+  "directory": "/home/ascend/AscendProjects/sample-handposeRC/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/home/ascend/AscendProjects/sample-handposeRC/src/../inc -I/home/ascend/ascend_ddk/arm/include/opencv4 -I/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/include -I/home/ascend/ascend_ddk/arm/include -I/home/ascend/ascend_ddk/arm/include/ascenddk -I/home/ascend/Ascend -I/home/ascend/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/uart.cpp.o -c /home/ascend/AscendProjects/sample-handposeRC/src/uart.cpp",
+  "file": "/home/ascend/AscendProjects/sample-handposeRC/src/uart.cpp"
+},
+{
+  "directory": "/home/ascend/AscendProjects/sample-handposeRC/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/home/ascend/AscendProjects/sample-handposeRC/src/../inc -I/home/ascend/ascend_ddk/arm/include/opencv4 -I/home/ascend/Ascend/ascend-toolkit/20.0.RC1/acllib_centos7.6.aarch64/acllib/include -I/home/ascend/ascend_ddk/arm/include -I/home/ascend/ascend_ddk/arm/include/ascenddk -I/home/ascend/Ascend -I/home/ascend/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/main.cpp.o -c /home/ascend/AscendProjects/sample-handposeRC/src/main.cpp",
+  "file": "/home/ascend/AscendProjects/sample-handposeRC/src/main.cpp"
+}
+]

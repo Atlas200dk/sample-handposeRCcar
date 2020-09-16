@@ -1,25 +1,26 @@
-
 # Peripherial devices<a name="EN-US_TOPIC_0232642690"></a>
 
 This guide explains how to add the peripherial devices to the Atlas200DK, so that the RC car can be controlled using hand gestures.
+
+Note: Atlas 200 DK has two types of printed circuit boards (PCBs): **IT21DMDA** (old PCB) and **IT21VDMB** (new PCB) ([ref](https://support.huaweicloud.com/intl/en-us/productdesc-A200dk_3000/atlas200_DK_pdes_19_0007.html)). The following instrucction applies to **IT21DMDA** (old PCB). For the new PCB, you might have to use different pins of Atlas 200 DK. 
 
 ## Introduction
 
 ### Two variations are available: I2C and UART
 
 1.  Send data from Atlas200DK through I2C <br ><br >
-![](sample-handposeRC-I2C/figures/I2C.PNG)
+![](sample-handposeRC/Atlas200DK/figures/I2C.PNG)
 
-    >![](public_sys-resources/icon-note.gif) **NOTE:**   
+    >![](sample-handposeRC/Atlas200DK/public_sys-resources/icon-note.gif) **NOTE:**   
     >-   The RC car control command is sent to an Arduino through I2C, which transmits it to the RC car Arduino through Bluetooth.  
     >-   This method demonstrates I2C communication between Atlas and Arduino boards.
     
     <br />
 
 2.  <a name="en-us_topic_0228461904_li3208251440"></a>Send data from Atlas200DK through UART.<br ><br >
-![](sample-handposeRC-I2C/figures/UART.PNG)
+![](sample-handposeRC/Atlas200DK/figures/UART.PNG)
 
-    >![](public_sys-resources/icon-note.gif) **NOTE:**   
+    >![](sample-handposeRC/Atlas200DK/public_sys-resources/icon-note.gif) **NOTE:**   
     >-   The RC car control command is sent through UART directly to transmitter Bluetooth module. 
     >-   This method does not need the optional Arduino UNO.
  <br />
@@ -47,11 +48,13 @@ Note that the Elegoo Smart Robot Car Kit comes with components including an Ardu
 
 **1. Connect one HC-05 module to Transmitter Arduino and one HC-05 to RC car Arduino**
 
-![](sample-handposeRC-I2C/figures/Arduino_bt.png)
+![](sample-handposeRC/Atlas200DK/figures/Arduino_bt.png)
 <br/><br/>
 
 
 **2. Connect Transmitter Arduino to Atlas200DK**
+
+![](sample-handposeRC/Atlas200DK/figures/i2c_atlas_arduino_small.png)
 
 Connect the following pins using jumper wires: <br />
 
@@ -59,7 +62,7 @@ Atlas200DK - Arduino
 
 -   P3(SDA) - A4
 -   P5(SCL) - A5
--   GND - GND
+-   P6(GND) - GND
 
 <br/>
 
@@ -68,10 +71,12 @@ Atlas200DK - Arduino
 
 **1. Connect one HC-05 modules to RC car Arduino**
 
-![](sample-handposeRC-I2C/figures/Arduino_bt.png)
+![](sample-handposeRC/Atlas200DK/figures/Arduino_bt.png)
 <br/><br/>
 
 **2. Connect one HC-05 module to Atlas200DK**
+
+![](sample-handposeRC/Atlas200DK/figures/atlas_hc05_small.png)
 
 Connect the following pins using jumper wires: <br />
 
@@ -96,8 +101,19 @@ UART Variation:
 
 
 ### HC-05 Bluetooth modules
-Configure the HC-05 Bluetooth modules in AT mode as master and slave. Use a baudrate of 38400 for both. The modules should automatically connect when powered on. ([tutorial](https://howtomechatronics.com/tutorials/arduino/how-to-configure-pair-two-hc-05-bluetooth-module-master-slave-commands/))
+Configure the HC-05 Bluetooth modules in AT mode as master and slave. Use a baudrate of 38400 for both. The modules should automatically connect when powered on. 
+Detailed instructions can be found via this ([tutorial](https://www.youtube.com/watch?v=hyME1osgr7s))
 <br />
+
+When watching the tutorial, please pay special attention to the **wiring of RX, TX pins** when setting up the Bluetooth modules:
+
+Connecting HC-05 to Arduino in setup (AT mode) (0:47-1:21 in the tutorial video):
+- RX --> RX
+- TX --> TX
+
+Connecting HC-05 to Arduino in operation mode (running the application):
+- RX --> TX
+- TX --> RX
 
 
 

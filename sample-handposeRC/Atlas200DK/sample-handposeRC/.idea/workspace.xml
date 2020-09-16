@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d75e023d-3093-430a-a535-55fc976cbc91" name="Default Changelist" comment="derek" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/handpose_decode.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="124" column="2" lean-forward="true" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/handpose_decode.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>buffer</find>
+      <find>dvpp</find>
+      <find>i2c_ctrl</find>
+      <find>modelOutput</find>
+      <find>thumb_threshold</find>
+      <find>argv[1]</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/..</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data/param.conf" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/inc/utils.h" />
+        <option value="$PROJECT_DIR$/src/hand_pose.cpp" />
+        <option value="$PROJECT_DIR$/inc/hand_pose.h" />
+        <option value="$PROJECT_DIR$/inc/uart.h" />
+        <option value="$PROJECT_DIR$/inc/camera.h" />
+        <option value="$PROJECT_DIR$/presenterserver/presenter_server.py" />
+        <option value="$PROJECT_DIR$/src/camera.cpp" />
+        <option value="$PROJECT_DIR$/src/i2c.cpp" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/uart.cpp" />
+        <option value="$PROJECT_DIR$/inc/handpose_decode.h" />
+        <option value="$PROJECT_DIR$/src/handpose_decode.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="15" />
+    <option name="width" value="933" />
+    <option name="height" value="575" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sample-handposeRC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-handposeRC" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="OperatorsViewPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Ascend App.sample-handpose">
+    <configuration default="true" type="Ascend App Configuration Type" factoryName="Ascend App" hostip="139.159.155.18" commandArguments="">
+      <method v="2" />
+    </configuration>
+    <configuration name="handpose" type="Ascend App Configuration Type" factoryName="Ascend App" hostip="139.159.155.18" commandArguments="">
+      <method v="2" />
+    </configuration>
+    <configuration name="handposeRC" type="Ascend App Configuration Type" factoryName="Ascend App" hostip="139.159.155.18" commandArguments="">
+      <method v="2" />
+    </configuration>
+    <configuration name="sample-handpose" type="Ascend App Configuration Type" factoryName="Ascend App" hostip="192.168.1.2" commandArguments="" ProfilingParams="{&quot;--ai_core_profiling_mode&quot;:&quot;sample-based&quot;,&quot;ProfilingStatus&quot;:&quot;off&quot;,&quot;--ai_core_metrics&quot;:&quot;aicorePipeline&quot;,&quot;hasError&quot;:&quot;off&quot;,&quot;--profiling_options&quot;:&quot;task_trace&quot;,&quot;ai_core_sample_based&quot;:&quot;off&quot;,&quot;--aicore_sampling_interval&quot;:&quot;10&quot;,&quot;ai_core_task_based&quot;:&quot;off&quot;}">
+      <method v="2" />
+    </configuration>
+    <configuration name="sample-handposeRC" type="Ascend App Configuration Type" factoryName="Ascend App" hostip="139.159.155.18" commandArguments="">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Ascend App.handpose" />
+      <item itemvalue="Ascend App.handposeRC" />
+      <item itemvalue="Ascend App.sample-handpose" />
+      <item itemvalue="Ascend App.sample-handposeRC" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d75e023d-3093-430a-a535-55fc976cbc91" name="Default Changelist" comment="" />
+      <created>1596506058195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596506058195</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32664436" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="bottom" id="Log" order="8" weight="0.3275862" />
+      <window_info anchor="bottom" id="Output" order="9" sideWeight="0.49945354" weight="0.3277592" />
+      <window_info anchor="bottom" id="Pylint" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49945354" weight="0.3275862" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50054646" side_tool="true" weight="0.3275862" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.37346712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="derek" />
+    <option name="LAST_COMMIT_MESSAGE" value="derek" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/dvpp_resize.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/dvpp_process.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/dvpp_jpege.cpp" />
+    <entry file="file://$PROJECT_DIR$/inc/dvpp_process.h" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/param.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/i2c.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3066" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/acl.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/run.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presenterserver/presenter_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1440">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/model_process.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/utils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run_presenter_server.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/camera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2586">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/hand_pose.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-586">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#666#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/camera.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/uart.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/i2c.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model_process.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4140">
+          <caret line="209" column="1" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1540">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <element signature="e#637#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uart.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3986">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="e#1772#1790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5026">
+          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hand_pose.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/handpose_decode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handpose_decode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="124" column="2" lean-forward="true" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
