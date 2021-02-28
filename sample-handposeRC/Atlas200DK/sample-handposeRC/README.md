@@ -5,6 +5,17 @@ You can deploy this application on the Atlas 200 DK to collect camera data in re
 
 ## Atlas200DK application overview (C++)<a name="en-us_topic_0228461904_section7994174585917"></a>
 
+### Model Description
+The Hand Pose estimation model is developed for this open-source project based on light-weight openpose model [ref1](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch), [ref2](https://github.com/murdockhou/lightweight_openpose). 
+
+License: Apache 2.0
+
+## Model Conversion
+- Download the tensorflow trained model .pb file and aipp configuration file  
+  https://drive.google.com/file/d/19NitniDDfBQSRDDVKVTWgilZCXp_9H9e/view?usp=sharing
+- ATC Model Conversion:  
+  **atc --model=handpose_frozen_argmax.pb --framework=3 --output=handpose_argmax --input_shape=input001:1,256,256,3 --out_nodes=light_openpose/stage_4/ArgMax:0 --insert_op_conf=hand_aipp_norm.conf**
+
 ### Setup
 -  Setup MindStudio and development environment [ref](https://support.huaweicloud.com/intl/en-us/usermanual-mindstudioc73/atlasmindstudio_02_0008.html)
 -  Setup Atlas 200 DK [ref](https://support.huaweicloud.com/intl/en-us/usermanual-A200dk_3000/atlas200dk_02_0001.html)
