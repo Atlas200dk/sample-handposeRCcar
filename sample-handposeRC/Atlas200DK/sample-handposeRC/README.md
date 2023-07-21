@@ -12,7 +12,7 @@ License: Apache 2.0
 
 #### Model Conversion
 - Download the tensorflow trained model .pb file and aipp configuration file  
-  https://drive.google.com/file/d/19NitniDDfBQSRDDVKVTWgilZCXp_9H9e/view?usp=sharing
+  https://drive.google.com/drive/folders/1wCT5b8n_e77y2G2pe7HBY9z48kcZPysP?usp=sharing
 - ATC Model Conversion:  
   **atc --model=handpose_frozen_argmax.pb --framework=3 --output=handpose_argmax --input_shape=input001:1,256,256,3 --out_nodes=light_openpose/stage_4/ArgMax:0 --insert_op_conf=hand_aipp_norm.conf**
 
